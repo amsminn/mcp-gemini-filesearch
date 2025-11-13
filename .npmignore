@@ -1,0 +1,67 @@
+# Source files (TypeScript)
+src/
+tsconfig.json
+tsconfig.*.json
+
+# Tests
+tests/
+coverage/
+*.test.ts
+*.spec.ts
+jest.config.js
+jest.setup.js
+
+# Development files
+.github/
+.vscode/
+.idea/
+examples/
+thesis/
+*.swp
+*.swo
+*~
+
+# Documentation (README.md는 포함)
+CLAUDE.md
+CONTRIBUTING.md
+PRD.md
+docs/
+
+# CI/CD & Test files
+.mcp.json
+test-mcp.js
+test-create-store.js
+
+# Linting & Formatting
+eslint.config.js
+.eslintrc*
+.prettierrc*
+.prettierignore
+.editorconfig
+
+# Environment
+.env
+.env.*
+.env.example
+
+# Assets
+asset/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Build artifacts (dist/, bin/은 포함)
+*.log
+*.tgz
+node_modules/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Misc
+.DS_Store
+Thumbs.db
