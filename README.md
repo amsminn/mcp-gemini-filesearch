@@ -22,8 +22,13 @@ Google Gemini File Search API를 MCP(Model Context Protocol) 서버로 래핑한
 
 ## Quick Start
 
-### mcpServers setup
+### 1. API 키 발급
 
+**무료 API 키 받기**: [Google AI Studio](https://aistudio.google.com/apikey)에서 무료로 Gemini API 키를 발급받을 수 있습니다.
+
+### 2. MCP 설정
+
+Claude Desktop이나 다른 MCP 호환 클라이언트의 설정 파일에 다음을 추가하세요:
 
 ```json
 {
@@ -39,6 +44,12 @@ Google Gemini File Search API를 MCP(Model Context Protocol) 서버로 래핑한
   }
 }
 ```
+
+**중요**:
+- `GEMINI_API_KEY`: [Google AI Studio](https://aistudio.google.com/apikey)에서 발급받은 무료 API 키를 입력하세요
+- `GEMINI_FILESTORE_NAME`: 원하는 스토어 이름을 지정하세요 (예: "my-research", "논문모음", "technical-docs")
+  - **같은 이름을 사용하면 이전에 업로드한 문서들을 계속 사용할 수 있습니다**
+  - 다른 이름을 사용하면 새로운 독립된 문서 저장소가 만들어집니다
 
 ## Internal Tool Usage Example
 
