@@ -35,7 +35,7 @@ Claude Desktop이나 다른 MCP 호환 클라이언트의 설정 파일에 다�
   "mcpServers": {
     "gemini-filesearch": {
       "command": "npx",
-      "args": ["mcp-gemini-filesearch"],
+      "args": ["-y", "mcp-gemini-filesearch"],
       "env": {
         "GEMINI_API_KEY": "AIzaSyXXXXXXXXXXXXXXXX",
         "GEMINI_FILESTORE_NAME": "select-your-store-name"
